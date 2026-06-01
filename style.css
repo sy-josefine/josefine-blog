@@ -159,3 +159,35 @@ p {
   color: var(--ink-light);
   margin-top: 3px;
 }
+ 
+/* ── Navigointi ── */
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  color: var(--ink-light);
+  padding: 16px 0;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+ 
+.post-nav a {
+  color: var(--ink-light);
+  text-decoration: none;
+  max-width: 38%;
+  line-height: 1.4;
+}
+.post-nav a:hover { color: var(--accent); }
+ 
+.post-nav .prev::before { content: "← "; }
+.post-nav .next::after  { content: " →"; }
+.post-nav .home         { color: var(--rule); letter-spacing: 0.04em; flex-shrink: 0; }
+.post-nav .home:hover   { color: var(--accent); }
+ 
+.post-nav .prev,
+.post-nav .next { flex: 1; }
+.post-nav .next { text-align: right; }
+ 
