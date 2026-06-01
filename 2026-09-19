@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NYT SE ALKAA!!!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Lora', Georgia, serif;
+      font-size: 1.1rem;
+      line-height: 1.75;
+      color: #222;
+      background: #faf9f7;
+      padding: 2rem 1rem;
+    }
+
+    article {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 0.4rem;
+    }
+
+    p.date {
+      font-size: 0.95rem;
+      color: #666;
+      font-style: italic;
+      margin-bottom: 1.8rem;
+    }
+
+    .log-box {
+      border: 1px solid #d4cfc8;
+      border-radius: 6px;
+      background: #f4f1ec;
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.8rem;
+      font-size: 0.95rem;
+      line-height: 1.7;
+    }
+
+    .log-box ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .log-box ul li {
+      padding: 0.15rem 0;
+    }
+
+    .log-box ul li strong {
+      display: inline-block;
+      min-width: 4.5rem;
+      color: #444;
+    }
+
+    p {
+      margin-bottom: 1.2rem;
+    }
+
+    .photo-row {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      margin-top: 2.5rem;
+    }
+
+    figure.photo-slot.portrait {
+      flex: 1;
+      aspect-ratio: 2 / 3;
+      background: #e8e4de;
+      border: 1px dashed #b5b0a8;
+      border-radius: 4px;
+      display: flex;
+      align-items: flex-end;
+      padding: 0.5rem;
+    }
+
+    figure.photo-slot.portrait figcaption {
+      font-size: 0.8rem;
+      color: #555;
+      font-style: italic;
+      line-height: 1.4;
+    }
+  </style>
+</head>
+<body>
+  <article>
+
+    <h1>NYT SE ALKAA!!!</h1>
+    <p class="date">Perjantai 19.9.2026</p>
+
+    <div class="log-box">
+      <ul>
+        <li><strong>Aika:</strong> 10:15–20:15 (10 tuntia)</li>
+        <li><strong>Matka:</strong> 50 mailia</li>
+        <li><strong>Crew:</strong> Mikko + Kristof (+ Rune)</li>
+        <li><strong>Sää:</strong> ⛅ 18 °C / 8 m/s W–SW</li>
+      </ul>
+    </div>
+
+    <p>Vihdoin ulos merelle ja pois köpiksestä! Pari päivää muuttui Pariisissa kuudeksi. Mutta viimein matka jatkuu. Kristof oli asemalla veneessä Runon seisatessa. Suorinta tietä veneelle ja köydet irti. Kaikki sujui hienosti ja painettiin ekan lahden poikki sivutuulessa 7 solmussa.</p>
+
+    <p>Seuraavan lahden kohdalla tuuli ja ruoti vähän kääntyivät ja jouduttiin kryssimään. Oli aika raffia menoa. Muistaakseni eka päivä on aina niin rankka... Lopulta päästiin Vordingborgin mutaukselle ja moottoroitiin dyynin läpi kohti Kaluchavenia, jossa Rune oli odottelemassa.</p>
+
+    <p>Viika maili oli aivan tuskaa, koska salmi oli täynnä sitä sontaista heinää ja vene pyöri paikallistaan virtauksessa. Nilkutettiin satamaan ja otettiin bisset vastaanottokomiteen kanssa.</p>
+
+    <div class="photo-row">
+      <figure class="photo-slot portrait">
+        <figcaption>📷 Ehdotus 1: Lähtö Grevestä – köydet irti ja keula merelle</figcaption>
+      </figure>
+      <figure class="photo-slot portrait">
+        <figcaption>📷 Ehdotus 2: Kryssaus sivutuulessa – vene kallistuneena lahdella</figcaption>
+      </figure>
+      <figure class="photo-slot portrait">
+        <figcaption>📷 Ehdotus 3: Bisset vastaanottokomitean kanssa Kaluchaven satamassa</figcaption>
+      </figure>
+    </div>
+
+  </article>
+</body>
+</html>
